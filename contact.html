@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+      integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+      crossorigin="anonymous"
+    />
+    <!-- Start Interakt Api -->
+<script>
+  (function (w, d, s, c, r, a, m) {
+    w['KiwiObject'] = r;
+    w[r] = w[r] || function () {
+      (w[r].q = w[r].q || []).push(arguments)
+    };
+    w[r].l = 1 * new Date();
+    a = d.createElement(s);
+    m = d.getElementsByTagName(s)[0];
+    a.async = 1;
+    a.src = c;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', "https://app.interakt.ai/kiwi-sdk/kiwi-sdk-17-prod-min.js?v=" + new Date().getTime(), 'kiwi');
+  window.addEventListener("load", function () {
+    kiwi.init('', 'VMuYJGAa25MT6XjcSNEGPUc9ZOld0tLe', {});
+  });
+</script>
+<!-- End Interakt Api -->
+<link rel="stylesheet" href="./style.css">
+<style>
+    .carousel-inner img {
+        width: 100%;
+        height: 625px;
+        object-fit: cover;
+        transition:none ;
+    }
+</style>
+</head>
+
+<body >
+
+  <section>
+
+      <div>
+
+          <nav class="navbar navbar-expand-md fixed-top" id="nav-shadow" style="background-color: black;">
+
+              <div class="container-fluid">
+                  <a href="#" class="navbar-brand">
+                      <div class="icon">
+                  <img src="./img/newbag-removebg-preview (1).png" alt="" width="150%" height="60px" >
+                          
+                      </div>
+                  </a>
+
+
+
+                  <button class="navbar-dark navbar-toggler bg-dark" type="button" data-toggle="collapse"
+                      data-target="#mynav">
+                      <span class="navbar-toggler-icon "></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="mynav">
+
+                      <ul class="navbar-nav">
+
+                          <li class="nav-item ">
+                              <a href="./index.htm" class="nav-link  space" id="ds" >HOME</a>
+                          </li>
+
+                          <li class="nav-item ">
+                              <a href="#about" class="nav-link  space" id="ds1" >ABOUT</a>
+                          </li>
+
+                          <li class="nav-item ">
+                              <a href="./contact.html" class="nav-link  space" id="ds2" >CONTACT</a>
+                          </li>
+                          <li class="navitem">
+                              <a class="btn btn-primary  nav-link" href="#">
+
+                                  <span style="color: aliceblue; ">Join as a Professional</span>
+                              </a>
+                          </li>
+
+                      </ul>
+
+                  </div>
+
+              </div>
+
+
+          </nav>
+
+      </div>
+
+  </section>
+
+
+
+    <div class="container-fluid" style="margin-top: 10%; ">
+      <h1
+        style="background-color: rgb(154, 190, 243); text-align: center; padding: 5px;  color: rgb(3, 0, 0); margin-top: 7%;">
+        CONTACT US</h1>
+    </div>
+
+    <div class="container my-3 my-sm-5" >
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h4>Address:</h4>
+          <address>
+            Hemas Enterprises Pvt Ltd,No.3, Sidco Industrial
+            Estate,Semmandalam,
+            <br>Cuddalore, Tamil Nadu  607001
+            
+            <a href="tel:+919721304421">+91-6380274408</a><br />
+            
+            <a href="mailto:info@domain.com">supportckacademy@hemas.in</a>
+          </address>
+        </div>
+        <div class="col-12 col-md-6">
+        <h4>Working hours:</h4>
+          <p>
+            Mon-Sat:<span class="float-right"> 9 am - 4 pm</span><br />
+            Sunday:<span class="float-right"> Off</span><br />
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 mb-3">
+          <h4>Send us a message</h4>
+          <form action="#">
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-control"
+                    placeholder="Name"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="form-group">
+                  <label for="name">Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="example@email.com"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="form-group">
+                  <label for="telephone">Phone number:</label>
+                  <input
+                    type="tel"
+                    id="telephone"
+                    class="form-control"
+                    placeholder="999999999"
+                    required
+                  />
+                </div>
+              </div>
+              
+            </div>
+            <div class="form-group">
+              <label for="textarea">Message:</label>
+              <textarea
+                id="textarea"
+                class="form-control"
+                rows="5"
+                placeholder="Write your message here.."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-secondary">Reset</button>
+          </form>
+        </div>
+        <div class="col-12 col-lg-6">
+          <h4>Where to find us:</h4>
+          <div class="embed embed-responsive-4by3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.547238485675!2d79.74833064048562!3d11.764561412407335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5498f3ffffffff%3A0xdf1af83a2e00e198!2sHema%E2%80%99s%20Enterprises%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1676527310033!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+ <!-- FOOTER -->
+ <footer class="body23" style="background-color: rgb(255, 255, 255);">
+  <div class="container">
+
+      <div class="footer-container container">
+          <div class="left-col">
+              <div class="logo"></div>
+              <div class="social-media">
+                  <a href="#"><img src="https://img.icons8.com/color/48/null/facebook-new.png"></a>
+                  <a href="#"><img src="https://img.icons8.com/3d-fluency/94/null/instagram-new.png"></a>
+                  <a href="#"><img src="https://img.icons8.com/fluency/144/null/twitter.png"></a>
+                  <a href="#"><img
+                          src="https://img.icons8.com/external-those-icons-flat-those-icons/48/null/external-YouTube-Logo-social-media-those-icons-flat-those-icons.png"></a>
+                  <a href="#"><img src="https://img.icons8.com/color/96/null/linkedin.png"></a>
+              </div>
+              <p style="color:rgb(0, 0, 0) ;  ">
+              <H1 style="padding-left: 0%;"><img
+                      src="http://hub1.cavinkare.in/CK_Academy/pluginfile.php/1/core_admin/logo/0x200/1638164213/logo.png"
+                      alt=""> CK ACADEMY</H1>
+              </p>
+              <br>
+              <p style="color:rgb(0, 0, 0) ;"><img height="30px"
+                      src="https://img.icons8.com/color/96/null/google-maps.png">Hemas Enterprises Pvt
+                  Ltd,No.3, Sidco Industrial
+                  Estate,Semmandalam,
+                  <br>Cuddalore, Tamil Nadu 607001
+              </p><br>
+
+              <p style="color:rgb(0, 0, 0) ;"><img height="30px"
+                      src="https://img.icons8.com/color/96/null/apple-phone.png"> +91-6380274408<br><img
+                      height="30px" src="https://img.icons8.com/color/96/null/apple-mail.png">&nbsp;
+                  suport@hemas.in</p>
+          </div>
+          <div class="right-col">
+              <h1 style="color: #000000">Our Newsletter</h1>
+              <div class="border"></div><br>
+              <p>Enter Your Email to get our News and updates.</p>
+              <form class="newsletter-form">
+                  <input class="txtb" type="email" placeholder="Enter Your Email">
+                  <input class="btn" type="submit" value="Submit">
+              </form>
+          </div>
+      </div>
+      <div style="margin-left: 93%; margin-bottom: 1%;" class="fixed-bottom">
+
+      </div>
+
+      <hr>
+      <div class="footer-bottom ">
+          <div class="row">
+              <div class="col-sm-4">
+                  <a href="" style="color:rgb(2, 0, 0) ;">Privacy policy</a>
+              </div>
+              <div class="col-sm-8">
+                  <p style="color:rgb(0, 0, 0) ;">Designed on L&D by Ajay & Vijay ❤ 2023 @ HEPL</p>
+
+              </div>
+          </div>
+      </div>
+
+
+  </div>
+</footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+      integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+      integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var navBar = document.getElementById("nav-shadow");
+      var color = document.getElementById("ds");
+      var color1 = document.getElementById("ds1");
+      var color2 = document.getElementById("ds2");
+      var color3 = document.getElementById("ds3");
+      window.onscroll = function () {
+          if (window.scrollY > 22) {
+              navBar.classList.add("scrolled");
+          } else {
+              navBar.classList.remove("scrolled");
+          }
+          if (window.scrollY > 22) {
+              color.classList.add("scrollcolor");
+          } else {
+              color.classList.remove("scrollcolor");
+          }
+          if (window.scrollY > 22) {
+              color1.classList.add("scrollcolor");
+          } else {
+              color1.classList.remove("scrollcolor");
+          }
+          if (window.scrollY > 22) {
+              color2.classList.add("scrollcolor");
+          } else {
+              color2.classList.remove("scrollcolor");
+          }
+          if (window.scrollY > 22) {
+              color3.classList.add("scrollcolor2");
+          } else {
+              color3.classList.remove("scrollcolor2");
+          }
+      };
+
+
+
+  </script>
+  </body>
+</html>
